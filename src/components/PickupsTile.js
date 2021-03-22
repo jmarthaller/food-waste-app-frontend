@@ -36,7 +36,7 @@ const history = useHistory();
   }
 
   function handleFavorite() {
-    fetch(`https://frozen-shelf-16862.herokuapp.com//restaurants/${restaurantId}`, {
+    fetch(`https://frozen-shelf-16862.herokuapp.com/restaurants/${restaurantId}`, {
       method: "PATCH", // or 'PUT'
       headers: {
         "Content-Type": "application/json",
