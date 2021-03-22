@@ -20,7 +20,7 @@ function PickupsTile({
 const history = useHistory();
 
   function handleAddItem() {
-    fetch(`http://localhost:3002/pickups/${id}`, {
+    fetch(`https://frozen-shelf-16862.herokuapp.com/pickups/${id}`, {
       method: "PATCH", // or 'PUT'
       headers: {
         "Content-Type": "application/json",
@@ -36,7 +36,7 @@ const history = useHistory();
   }
 
   function handleFavorite() {
-    fetch(`http://localhost:3002/restaurants/${restaurantId}`, {
+    fetch(`https://frozen-shelf-16862.herokuapp.com//restaurants/${restaurantId}`, {
       method: "PATCH", // or 'PUT'
       headers: {
         "Content-Type": "application/json",

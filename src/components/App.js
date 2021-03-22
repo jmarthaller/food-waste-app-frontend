@@ -24,7 +24,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('http://localhost:3002/restaurants')
+    fetch('https://frozen-shelf-16862.herokuapp.com/restaurants')
       .then(response => response.json())
       .then(restaurantsArray => {
         setRestaurantState(restaurantsArray)
@@ -36,7 +36,7 @@ function App() {
   }, [])
 
   useEffect(() => {
-    fetch('http://localhost:3002/pickups')
+    fetch('https://frozen-shelf-16862.herokuapp.com/pickups')
       .then(response => response.json())
       .then(pickupsArray => {
         setPickupsState(pickupsArray)

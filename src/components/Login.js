@@ -18,7 +18,7 @@ function Login({ setCurrentUser }) {
     e.preventDefault();
     // TODO: login the user
     // POST /login
-    fetch("http://localhost:3002/login", {
+    fetch("https://frozen-shelf-16862.herokuapp.com/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -8,7 +8,7 @@ function UserProfile({ currentUser,  pickupsState, setPickupHistory, handleDelet
 
     function onDeletePickup(pickupId) {
         console.log(pickupId)
-        fetch(`http://localhost:3002/pickups/${pickupId}`, {
+        fetch(`https://frozen-shelf-16862.herokuapp.com/pickups/${pickupId}`, {
             method: "PATCH", 
             headers: {
               "Content-Type": "application/json",
