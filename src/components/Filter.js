@@ -7,6 +7,7 @@ function Filter( { currentUser, handleCategoryChange, selectedCategory } ) {
         (
           
           <div className="filter">
+            
           <select name="filter" id="filter" onChange={handleCategoryChange}>
             <option value=''>Filter by Cuisine</option>
             <option value="Korean">Korean</option>
