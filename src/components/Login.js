@@ -45,7 +45,7 @@ function Login({ setCurrentUser }) {
           value={formData.username}
           onChange={handleChange}
         />
-        <label>Password</label>
+        <label>Password</label>  
         <input
           type="password"
           name="password"
