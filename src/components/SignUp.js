@@ -33,7 +33,7 @@ function SignUp() {
           onChange={handleChange}
         />
 
-        <label>Password</label>
+        <label>Password</label>  
         <input
           type="password"
           name="password"
