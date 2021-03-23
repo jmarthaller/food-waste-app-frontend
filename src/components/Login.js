@@ -59,7 +59,7 @@ function Login({ setCurrentUser }) {
             To play without creating an account, use the following credentials
             to log in:
           </p>
-          <p>Username: Billy</p>
+          <p>Username: Billy</p>  
           <p>Password: 123</p>
         </div>
     </div>
