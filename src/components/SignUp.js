@@ -21,28 +21,38 @@ function SignUp() {
   const { username, password } = formData;
 
   return (
-    <form onSubmit={handleSubmit} autoComplete="off" className="login">
-      <h1>Signup</h1>
+    <div>
+      <form onSubmit={handleSubmit} autoComplete="off" className="login">
+        <h1>Signup</h1>
 
-      <label>Username</label>
-      <input
-        type="text"
-        name="username"
-        value={username}
-        onChange={handleChange}
-      />
+        <label>Username</label>
+        <input
+          type="text"
+          name="username"
+          value={username}
+          onChange={handleChange}
+        />
 
-      <label>Password</label>
-      <input
-        type="password"
-        name="password"
-        autoComplete="current-password"
-        value={password}
-        onChange={handleChange}
-      />
+        <label>Password</label>
+        <input
+          type="password"
+          name="password"
+          autoComplete="current-password"
+          value={password}
+          onChange={handleChange}
+        />
 
-      <input className="signup-btn" type="submit" value="Signup" />
-    </form>
+        <input className="signup-btn" type="submit" value="Signup" />
+      </form>
+      <div>
+        <p>
+          To play without creating an account, use the following credentials
+          to log in:
+        </p>
+        <p>Username: Billy</p>
+        <p>Password: 123</p>
+      </div>
+    </div>
   );
 }
 
