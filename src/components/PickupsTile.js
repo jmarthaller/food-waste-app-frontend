@@ -21,7 +21,7 @@ const history = useHistory();
 
   function handleAddItem() {
     fetch(`https://frozen-shelf-16862.herokuapp.com/pickups/${id}`, {
-      method: "PATCH", // or 'PUT'
+      method: "PATCH", 
       headers: {
         "Content-Type": "application/json",
       },
