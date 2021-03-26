@@ -2,9 +2,6 @@ import React from 'react';
 
 function FavoritesTile({ id, name, image, cuisine, subtractFavorite }) {
     
-    // function handleDislike() {
-    //     subtractFavorite(id)
-    // }
 
 
     return (
@@ -13,7 +10,6 @@ function FavoritesTile({ id, name, image, cuisine, subtractFavorite }) {
       <img src={image} alt={name} className="food-img"/>
       <p>{cuisine}</p>
       
-      {/* <button onClick={handleDislike}>Remove from Favorites</button> */}
     </div>
     )
 }
